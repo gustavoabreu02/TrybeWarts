@@ -22,7 +22,7 @@ main {
   height: 500px;
 }
 
-.checkbox {
+.section-checkbox {
   display: flex;
   flex-direction: column;
 }
