@@ -17,3 +17,7 @@ main {
   display: flex;
   width: 675px;
 }
+
+.img-logo img {
+  height: 500px;
+}
