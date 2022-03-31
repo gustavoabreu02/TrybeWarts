@@ -26,3 +26,11 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+footer {
+  padding: 20px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
