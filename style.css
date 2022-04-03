@@ -53,3 +53,7 @@ footer {
 .email-casa {
   flex-direction: row;
 }
+
+.radio-checkbox {
+  flex-direction: row;
+}
