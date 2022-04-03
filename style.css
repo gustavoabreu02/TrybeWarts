@@ -45,3 +45,11 @@ footer {
   color: white;
   font-size: 38px;
 }
+
+.nome-sobrenome {
+  flex-direction: row;
+}
+
+.email-casa {
+  flex-direction: row;
+}
