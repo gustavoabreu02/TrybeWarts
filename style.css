@@ -55,6 +55,7 @@ footer {
 .email-casa {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 
 .radio-checkbox {
@@ -71,4 +72,9 @@ footer {
 .linha2 {
   width: 670px;
   border: 1px solid black;
+}
+
+.div-select {
+  display: flex;
+  font-size: 20px;
 }
