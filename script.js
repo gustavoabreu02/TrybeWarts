@@ -26,9 +26,8 @@ function desabilitaButtonEnviar() {
 
 checkbox.addEventListener('click', desabilitaButtonEnviar);
 
-function contador () {
- textArea.value += 500 - textArea.value.length;
- console.log(textArea.value.length);
+function contador() {
+  textArea.value += 500 - textArea.value.length;
+  console.log(textArea.value.length);
 }
 textArea.addEventListener('keypress', contador);
- 
