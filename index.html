@@ -31,13 +31,15 @@
                 </div>
                 <div class="email-casa">
                     <input id="input-email" placeholder="Email" type="text">
-                    <label for="house">Casa: </label>
-                    <select name="" id="house">
-                        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                        <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                        <option id="pytherina-house" value="Pytherina">Pytherina</option>
-                    </select>
+                    <div>
+                        <label for="house">Casa: </label>
+                        <select name="" id="house">
+                            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="radio-checkbox">
                     <section class="input-radio1">
@@ -81,6 +83,10 @@
                 <section class="section-textarea">
                     <label for="textarea" class="textarea">Deixe seu comentário:</label>
                     <textarea maxlength="500" name="" id="textarea" cols="30" rows="10"></textarea>
+                </section>
+                <section class="input-concorda">
+                    <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+                    <input type="checkbox" name="" id="agreement">
                 </section>
                 <button id="submit-btn" type="submit">Enviar</button>
             </form>

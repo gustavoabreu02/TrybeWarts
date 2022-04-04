@@ -21,6 +21,7 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin-left: 500px;
 }
 
 .section-checkbox {
@@ -51,9 +52,13 @@ footer {
 }
 
 .email-casa {
+  display: flex;
   flex-direction: row;
 }
 
 .radio-checkbox {
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
+
