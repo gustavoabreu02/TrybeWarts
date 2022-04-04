@@ -3,7 +3,7 @@ const inputEmail = document.querySelector('#input-email1');
 const inputSenha = document.querySelector('#input-senha');
 const checkbox = document.querySelector('input[id = "agreement"]');
 const buttonSubimit = document.querySelector('#submit-btn');
-const textArea = document.querySelector('#textarea');
+/* const textArea = document.querySelector('#textarea'); */
 
 function verificaLogin() {
   if (inputEmail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
@@ -26,8 +26,9 @@ function desabilitaButtonEnviar() {
 
 checkbox.addEventListener('click', desabilitaButtonEnviar);
 
-function contador() {
+/* function contador() {
   textArea.value += 500 - textArea.value.length;
   console.log(textArea.value.length);
-}
-textArea.addEventListener('keypress', contador);
+} */
+/* textArea.addEventListener('keypress', contador);
+ */
