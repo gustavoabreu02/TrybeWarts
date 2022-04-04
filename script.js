@@ -3,6 +3,7 @@ const inputEmail = document.querySelector('#input-email');
 const inputSenha = document.querySelector('#input-senha');
 const checkbox = document.querySelector('input[id = "agreement"]');
 const buttonSubimit = document.querySelector('#submit-btn');
+/* const textArea = document.querySelector('#textarea'); */
 
 function verificaLogin() {
   if (inputEmail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
